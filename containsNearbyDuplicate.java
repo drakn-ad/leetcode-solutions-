@@ -15,3 +15,17 @@ class Solution {
         return false;
     }
 }
+//////////////////////////////////////////////////
+//MAP SOLUTION
+/*
+        Map<Integer,Integer> mp = new HashMap<>();
+        for(int i=0;i<nums.length;i++) {
+            int num = nums[i];
+            if(mp.containsKey(num)&&(i-mp.get(num)) <=k) {
+                return true;
+            }
+            mp.put(num,i);
+        }
+        return false;
+
+*/
